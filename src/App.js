@@ -1,40 +1,49 @@
 import React, { useState } from "react";
 import "./App.css";
 import Key from "./Key";
+import notaDo from "./notas/do.wav";
+import notaRe from "./notas/re.wav";
+import notaMi from "./notas/mi.wav";
+import notaFa from "./notas/fa.wav";
+import notaSol from "./notas/sol.wav";
+import notaLa from "./notas/la.wav";
+import notaSi from "./notas/si.wav";
+
+
 
 const notas = [
   {
     nombre: "DO",
-    link: require("./notas/do.wav"),
+    link: notaDo,
     tieneSostenido: true
   },
   {
     nombre: "RE",
-    link: require("./notas/re.wav"),
+    link: notaRe,
     tieneSostenido: true
   },
   {
     nombre: "MI",
-    link: require("./notas/mi.wav")
+    link: notaMi
   },
   {
     nombre: "FA",
-    link: require("./notas/fa.wav"),
+    link: notaFa,
     tieneSostenido: true
   },
   {
     nombre: "SOL",
-    link: require("./notas/sol.wav"),
+    link: notaSol,
     tieneSostenido: true
   },
   {
     nombre: "LA",
-    link: require("./notas/la.wav"),
+    link: notaLa,
     tieneSostenido: true
   },
   {
     nombre: "SI",
-    link: require("./notas/si.wav")
+    link: notaSi
   }
 ];
 
